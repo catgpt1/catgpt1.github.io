@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/wenbo/static/css/main.d2ce45f4.css",
+    "main.js": "/wenbo/static/js/main.12269e17.js",
+    "index.html": "/wenbo/index.html",
+    "main.d2ce45f4.css.map": "/wenbo/static/css/main.d2ce45f4.css.map",
+    "main.12269e17.js.map": "/wenbo/static/js/main.12269e17.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2ce45f4.css",
+    "static/js/main.12269e17.js"
+  ]
+}
