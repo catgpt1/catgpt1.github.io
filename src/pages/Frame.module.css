@@ -1,0 +1,477 @@
+.pinIcon {
+  position: fixed;  
+  height: 17vh;  
+  bottom: 5vh; 
+  right: 20vw;  
+  z-index: 6;
+  cursor: pointer;
+}
+/* 小于等于手机屏幕尺寸时的样式 */  
+@media screen and (max-width: 1024px) {  
+  .pinIcon {  
+    height: 11vh;
+    width: auto; /* 根据需要设置适当的高度 */  
+    bottom: 5vh;  
+    right: 26vw;  
+  }  
+} 
+
+.fengParent {
+  position: relative;
+  background-color: #000;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.zi {
+  position: fixed;  
+  height: 65vh;  
+  bottom: 35vh; 
+  right: 10vw;  
+  z-index: 2;
+}
+/* 小于等于手机屏幕尺寸时的样式 */  
+@media screen and (max-width: 1024px) {  
+  .zi {  
+    height: 40vh;
+    width: auto; /* 根据需要设置适当的高度 */  
+    top: 5vh;  
+    right: 0vw;  
+  }  
+} 
+
+.xi {
+  position: fixed;  
+  height: 65vh;  
+  bottom: -13vh; 
+  right: 0vw;  
+  z-index: 1;
+}
+/* 小于等于手机屏幕尺寸时的样式 */  
+@media screen and (max-width: 1024px) {  
+  .xi {  
+    height: 50vh;
+    width: auto; /* 根据需要设置适当的高度 */  
+    bottom: -10vh;  
+    right: -5vw;  
+  }  
+}
+
+
+.zu {
+  position: fixed;  
+  height: 30vh;  
+  bottom: 5vh; 
+  right: 40vw;  
+  z-index: 3;
+}
+/* 小于等于手机屏幕尺寸时的样式 */  
+@media screen and (max-width: 1024px) {  
+  .zu {  
+    height: 16vh;
+    width: auto; /* 根据需要设置适当的高度 */  
+    bottom: 23vh;  
+    right: 25vw;  
+  }  
+} 
+
+
+
+.di {
+  position: fixed;  
+  height: 70vh;  
+  top: 50vh; 
+  right: 80vw;  
+  z-index: 3;
+}
+/* 小于等于手机屏幕尺寸时的样式 */  
+@media screen and (max-width: 1024px) {  
+  .di {  
+    height: 50vh;
+    width: auto; /* 根据需要设置适当的高度 */  
+    bottom: 5vh;  
+    right: 60vw;  
+  }  
+} 
+
+.chaIcon {
+  position: fixed;  
+  height: 20vh;  
+  bottom: 50vh; 
+  right: 9vw;  
+  z-index: 1;
+  cursor: pointer;
+}
+/* 小于等于手机屏幕尺寸时的样式 */  
+@media screen and (max-width: 1024px) {  
+  .chaIcon {  
+    height: 12vh;
+    width: auto; /* 根据需要设置适当的高度 */  
+    bottom: 9vh;  
+    right: 5vw;  
+    cursor: pointer;
+  }  
+} 
+
+.chaParent {
+  position: relative;
+  background-color: #fff;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.wenIcon {
+  position: fixed;  
+  height: 18vh;  
+  bottom: 5vh; 
+  right: 5vw;  
+  z-index: 1;
+  cursor: pointer;
+}
+/* 小于等于手机屏幕尺寸时的样式 */  
+@media screen and (max-width: 1024px) {  
+  .wenIcon {  
+    height: 13vh;
+    width: auto; /* 根据需要设置适当的高度 */  
+    bottom: 8vh;  
+    left: 75vw;  
+    cursor: pointer;
+  }  
+} 
+
+.wenParent {
+  position: relative;
+  background-color:black;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+.icon1 {
+  position: fixed;  
+  height: 20vh;  
+  bottom: 6vh; 
+  right: 30vw;  
+  z-index: 2;
+  cursor: pointer;
+}
+/* 小于等于手机屏幕尺寸时的样式 */  
+@media screen and (max-width: 1024px) {  
+  .icon1 {  
+    height: 13vh;
+    width: auto; /* 根据需要设置适当的高度 */  
+    bottom: 15vh;  
+    right: 5vw;  
+    cursor: pointer;
+  }  
+} 
+
+.icon2 {
+  position: fixed;  
+  height: 17vh;  
+  top: 5vh; 
+  right: 45vw;  
+  z-index: 3;
+  cursor: pointer;
+}
+/* iPad屏幕尺寸时的样式 */    
+@media screen and (min-width: 700px) and (max-width: 1025px) {    
+  .icon2 {    
+    height: 14vh;  
+    width: auto; /* 根据需要设置适当的高度 */    
+    top: 10vh;    
+    right: 23vw;    
+  }    
+}   
+/* 小于等于手机屏幕尺寸时的样式 */  
+@media screen and (max-width: 700px) {  
+  .icon2 {  
+    height: 12vh;
+    width: auto; /* 根据需要设置适当的高度 */  
+    top: 30vh;  
+    right: 23vw;  
+  }  
+} 
+
+.icon3 {
+  position: fixed;  
+  height: 20vh;  
+  top: 20vh; 
+  right: 30vw;  
+  z-index: 3;
+  cursor: pointer;
+}
+/* 小于等于手机屏幕尺寸时的样式 */  
+@media screen and (max-width: 1024px) {  
+  .icon3 {  
+    height: 13vh;
+    width: auto; /* 根据需要设置适当的高度 */  
+    top: 40vh;  
+    right: 7vw;  
+  }  
+} 
+
+
+
+.icon4 {
+  position: fixed;  
+  height: 18vh;  
+  top: 27vh; 
+  right: 53vw;  
+  z-index: 3;
+  cursor: pointer;
+}
+/* iPad屏幕尺寸时的样式 */    
+@media screen and (min-width: 700px) and (max-width: 1025px) {    
+  .icon4 {    
+    height: 14vh;  
+    width: auto; /* 根据需要设置适当的高度 */    
+    top: 25vh;    
+    right: 42vw;    
+  }    
+}   
+/* 小于等于手机屏幕尺寸时的样式 */  
+@media screen and (max-width: 700px) {  
+  .icon4 {  
+    height: 10vh;
+    width: auto; /* 根据需要设置适当的高度 */  
+    bottom: 45vh;  
+    right: 40vw;  
+  }  
+} 
+
+
+.icon5 {
+  position: fixed;  
+  height: 18vh;  
+  bottom: 35vh; 
+  right: 87vw;  
+  z-index: 3;
+  cursor: pointer;
+}
+/* 小于等于手机屏幕尺寸时的样式 */  
+@media screen and (max-width: 1024px) {  
+  .icon5 {  
+    height: 15vh;
+    width: auto; /* 根据需要设置适当的高度 */  
+    bottom: 35vh;  
+    left: 3vw;  
+  }  
+} 
+
+.icon6 {
+  position: fixed;  
+  height: 17vh;  
+  bottom: 35vh; 
+  right: 45vw;  
+  z-index: 3;
+  cursor: pointer;
+}
+/* 小于等于手机屏幕尺寸时的样式 */  
+@media screen and (max-width: 1024px) {  
+  .icon6 {  
+    height: 10vh;
+    width: auto; /* 根据需要设置适当的高度 */  
+    bottom: 30vh;  
+    right: 25vw;  
+  }  
+} 
+
+
+.icon7 {
+  position: fixed;  
+  height: 60vh;  
+  bottom: 35vh; 
+  right: 90vw;  
+  z-index: 5;
+  cursor: pointer;
+}
+/* 小于等于手机屏幕尺寸时的样式 */  
+@media screen and (max-width: 1024px) {  
+  .icon7 {  
+    height: 45vh;
+    width: auto; /* 根据需要设置适当的高度 */  
+    bottom: 40vh;  
+    left: 6vw;  
+  }  
+} 
+
+.icon8 {
+  position: fixed;  
+  height: 15vh;  
+  bottom: 5vh; 
+  right: 87vw;  
+  z-index: 1;
+  cursor: pointer;
+}
+/* 小于等于手机屏幕尺寸时的样式 */  
+@media screen and (max-width: 1024px) {  
+  .icon8 {  
+    height: 10vh;
+    width: auto; /* 根据需要设置适当的高度 */  
+    bottom: 10vh;  
+    right: 75vw;  
+    cursor: pointer;
+  }  
+} 
+
+.icon0 {
+  position: fixed;  
+  height: 80vh;  
+  bottom: 10vh; /* 修改为距离浏览器窗口底部的距离 */  
+  right: 30vw;  /* 修改为距离浏览器窗口右侧的距离 */  
+  z-index: 1;
+  cursor: pointer;
+}
+/* 小于等于手机屏幕尺寸时的样式 */  
+@media screen and (max-width: 1024px) {  
+  .icon0 {  
+    width: 60vw;  
+    height: auto; /* 根据需要设置适当的高度 */  
+    bottom: 20vh;  
+    right: 5vw;  
+  }  
+}  
+
+
+.parent {
+  position: relative;
+  background-color: #000;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden
+}
+
+img.w1 {  
+position: fixed;  
+height: 4vh;  
+bottom: 5vh; 
+right: 10vw;  
+z-index: 5;
+cursor: pointer;
+}
+/* 小于等于手机屏幕尺寸时的样式 */  
+@media screen and (max-width: 1024px) {  
+img.w1 {  
+  height: auto;
+  width: 35vw; /* 根据需要设置适当的高度 */  
+  bottom: 10vh;  
+  right: 6vw;  
+}  
+} 
+
+
+
+img.w2 {  
+  position: fixed;  
+  height: 9vh;  
+  top: 4vh; /* 修改为距离浏览器窗口底部的距离 */  
+  right: 35vw;  /* 修改为距离浏览器窗口右侧的距离 */  
+  z-index: 7;
+  cursor: pointer;
+}
+/* iPad屏幕尺寸时的样式 */    
+@media screen and (min-width: 700px) and (max-width: 1025px) {  
+  img.w2 {  
+    width: 40vw;  
+    height: auto; /* 根据需要设置适当的高度 */  
+    top: 10vh;  
+    right: 5vw;  
+  }  
+}  
+/* 小于等于手机屏幕尺寸时的样式 */  
+@media screen and (max-width: 700px) {  
+  img.w2 {  
+    width: 40vw;  
+    height: auto; /* 根据需要设置适当的高度 */  
+    top: 30vh;  
+    right: 5vw;  
+  }  
+}  
+
+img.w3 {  
+  position: fixed;  
+  height: 7vh;  
+  top: 20vh; 
+  right: 15vw;  
+  z-index: 5;
+  cursor: pointer;
+  }
+  /* 小于等于手机屏幕尺寸时的样式 */  
+  @media screen and (max-width: 1024px) {  
+  img.w3 {  
+    height: auto;
+    width: 20vw; /* 根据需要设置适当的高度 */  
+    top: 50vh;  
+    right: 6vw;  
+  }  
+  } 
+
+  img.w4 {  
+    position: fixed;  
+    height: 4vh;  
+    top: 30vh; /* 修改为距离浏览器窗口底部的距离 */  
+    right: 45vw;  /* 修改为距离浏览器窗口右侧的距离 */  
+    z-index: 7;
+    cursor: pointer;
+  }
+  /* iPad屏幕尺寸时的样式 */    
+  @media screen and (min-width: 700px) and (max-width: 1025px) {  
+    img.w4 {  
+      width: 30vw;  
+      height: auto; /* 根据需要设置适当的高度 */  
+      top: 30vh;  
+      right: 27vw;  
+    }  
+  }  
+  /* 小于等于手机屏幕尺寸时的样式 */  
+  @media screen and (max-width: 700px) {  
+    img.w4 {  
+      width: 30vw;  
+      height: auto; /* 根据需要设置适当的高度 */  
+      top: 50vh;  
+      right: 27vw;  
+    }  
+  }  
+  
+  img.w5 {  
+    position: fixed;  
+    height: 15vh;  
+    bottom: 20vh; 
+    left: 13vw;  
+    z-index: 5;
+    cursor: pointer;
+    }
+    /* 小于等于手机屏幕尺寸时的样式 */  
+    @media screen and (max-width: 1024px) {  
+    img.w5 {  
+      height: auto;
+      width: 20vw; /* 根据需要设置适当的高度 */  
+      bottom: 27vh;  
+      left: 6vw;  
+    }  
+    } 
+
+
+
+    img.w6 {  
+      position: fixed;  
+      height: 15vh;  
+      bottom: 30vh; 
+      right: 40vw;  
+      z-index: 5;
+      cursor: pointer;
+      }
+      /* 小于等于手机屏幕尺寸时的样式 */  
+      @media screen and (max-width: 1024px) {  
+      img.w6 {  
+        height: auto;
+        width: 20vw; /* 根据需要设置适当的高度 */  
+        bottom: 25vh;  
+        left: 45vw;  
+      }  
+      } 

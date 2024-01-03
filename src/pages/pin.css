@@ -1,0 +1,63 @@
+.puzzle-game {
+  position: relative;  
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.grid-container {
+    display: grid;  
+    grid-template-columns: repeat(3, 1fr); /* 3列 */  
+    justify-content: center; /* 水平居中 */  
+    align-items: center; /* 垂直居中 */  
+    width: 30vw; /* 设置容器宽度 */  
+    margin: 0 auto; /* 水平居中 */  
+  }  
+
+
+.grid-item {
+  width: 20vh;
+  height: 20vh;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 1024px) {
+  .grid-item {
+    width: 18vw;
+    height: 18vw;
+  }
+}
+
+.image {
+  width: 20vh;
+  height: 20vh;
+  margin: 0px;
+}
+@media screen and (max-width: 1024px) {
+  .image {
+    width: 18vw;
+    height: 18vw;
+    margin: 0px;
+  }
+}
+
+.fixed {
+  border: 1px solid black;
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /* 允许元素换行显示 */
+  margin-bottom: 1vh;
+}
+
+@media screen and (max-width: 1024px) {
+  .bottom-row {
+    /* 在小屏幕下，也允许元素换行显示 */
+    flex-wrap: wrap;
+  }
+}
